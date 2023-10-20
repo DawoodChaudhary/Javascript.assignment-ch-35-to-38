@@ -115,31 +115,18 @@
 // Inner function: calculateSquare()
 
 
-// function Inner(){
-// var base = prompt("Enter a Base of a Right Angle Triangle ");    
-// var prep = prompt("Enter a Perpendicular Number of a Right Angle Triangle ")
-// var hyp = (base**2 + prep**2); 
-// console.log(" base: "+base+" Perpendicular: "+ prep + " hypotenuse: "+ hyp)
-// }
 // function Outer(){
-// var ans = Math.sqrt();
-// console.log(ans)
-// Inner();
+// var base = prompt("Enter a Base of a Right Angle Triangle "); 
+// var prep = prompt("Enter a Perpendicular Number of a Right Angle Triangle ");
+// var hyp = (base*base)+(prep*prep);
+// console.log(" base: "+base+" Perpendicular: "+ prep + " hypotenuse: "+ hyp); 
 // }
+// function Inner(){
+// var ans = Math.sqrt(Outer);
+// console.log(ans);   
 // Outer();
-
-function Outer(){
-var base = prompt("Enter a Base of a Right Angle Triangle "); 
-var prep = prompt("Enter a Perpendicular Number of a Right Angle Triangle ")
-var hyp = (base*base)+(prep*prep)
-console.log(" base: "+base+" Perpendicular: "+ prep + " hypotenuse: "+ hyp); 
-}
-function Inner(){
-var ans = Math.sqrt(Outer);
-console.log(ans);   
-Outer();
-}
-Inner();
+// }
+// Inner();
 
 
 
